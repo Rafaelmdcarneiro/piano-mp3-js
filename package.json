@@ -1,0 +1,34 @@
+{
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "name": "piano-mp3",
+  "description": "This is a repo for holding MP3 files for an acoustic piano, sampled directly from this [repo](https://github.com/gleitz/midi-js-soundfonts). These are exposed for use in another repo. The `/example` is a good show of what this repo can/will be used for.",
+  "version": "1.0.2",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuhton/piano-mp3.git"
+  },
+  "keywords": [
+    "Piano",
+    "mp3",
+    "audio",
+    "audio files",
+    "web audio"
+  ],
+  "author": "Nicholas Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fuhton/piano-mp3/issues"
+  },
+  "homepage": "https://github.com/fuhton/piano-mp3#readme",
+  "dependencies": {
+    "path": "^0.12.7",
+    "tone": "^0.11.11"
+  },
+  "devDependencies": {}
+}
